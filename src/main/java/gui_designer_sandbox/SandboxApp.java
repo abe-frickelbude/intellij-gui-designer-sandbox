@@ -1,6 +1,7 @@
 package gui_designer_sandbox;
 
 import com.bulenkov.darcula.DarculaLaf;
+import gui_designer_sandbox.forms.LayoutTestPanel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,10 +27,23 @@ public class SandboxApp {
     private static void createUI() {
 
         var frame = new JFrame();
-        var layoutTestPanel = new LayoutTestPanel();
-
         frame.setTitle("GUI Designer Sandbox");
+
+        var exitButton = new JButton("CLICK HERE TO EXIT SANDBOX!");
+        frame.getContentPane().add(exitButton, BorderLayout.SOUTH);
+
+        exitButton.addActionListener(event -> {
+            frame.setVisible(false);
+            frame.dispose();
+            System.exit(0);
+        });
+
+        // -------------------- inject desired UI component from the "forms" package here ----------------
+
+        var layoutTestPanel = new LayoutTestPanel();
         frame.getContentPane().add(layoutTestPanel.mainPanel, BorderLayout.CENTER);
+
+        // -----------------------------------------------------------------------------------------------
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setBounds(100, 100, 500, 500);

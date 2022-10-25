@@ -1,4 +1,4 @@
-package gui_designer_sandbox;
+package gui_designer_sandbox.forms;
 
 import com.intellij.uiDesigner.core.Spacer;
 import com.jgoodies.forms.layout.CellConstraints;
