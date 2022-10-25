@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui_designer_sandbox.forms.VipsPlaygroundControls">
+  <grid id="27dc6" binding="controlPanel" layout-manager="FormLayout">
+    <rowspec value="center:max(d;10px):noGrow"/>
+    <rowspec value="center:18px:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:27px:noGrow"/>
+    <rowspec value="top:8dlu:noGrow"/>
+    <rowspec value="center:14px:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:5dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="c2c6e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="5" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="X:"/>
+        </properties>
+      </component>
+      <component id="4fffd" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2c72a" class="javax.swing.JSpinner" binding="spinner2" default-binding="true">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e5f22" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value="Overlay image parameters"/>
+        </properties>
+      </component>
+      <component id="d8d0" class="javax.swing.JLabel" binding="ySpinnerLabel">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Y:"/>
+        </properties>
+      </component>
+      <component id="50837" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="5" bottom="0" right="0"/>
+        </constraints>
+        <properties>
+          <text value="Width:"/>
+        </properties>
+      </component>
+      <component id="1de87" class="javax.swing.JSpinner" binding="spinner3" default-binding="true">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b01ed" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Height:"/>
+        </properties>
+      </component>
+      <component id="590b0" class="javax.swing.JSpinner" binding="spinner4" default-binding="true">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d700d" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="12" column="0" row-span="5" col-span="7" vsize-policy="6" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-7566196"/>
+        </properties>
+      </component>
+      <component id="3e312" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Text inset parameters"/>
+        </properties>
+      </component>
+      <component id="b3837" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Rectangle bounds"/>
+        </properties>
+      </component>
+      <component id="e2a57" class="javax.swing.JButton" binding="openFileButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Open file..."/>
+        </properties>
+      </component>
+      <vspacer id="a8851">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8aec3" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="7" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-7566196"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

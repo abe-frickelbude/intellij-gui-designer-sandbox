@@ -2,6 +2,7 @@ package gui_designer_sandbox;
 
 import com.bulenkov.darcula.DarculaLaf;
 import gui_designer_sandbox.forms.LayoutTestPanel;
+import gui_designer_sandbox.forms.VipsPlaygroundControls;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,8 +41,8 @@ public class SandboxApp {
 
         // -------------------- inject desired UI component from the "forms" package here ----------------
 
-        var layoutTestPanel = new LayoutTestPanel();
-        frame.getContentPane().add(layoutTestPanel.mainPanel, BorderLayout.CENTER);
+        var layoutTestPanel = new VipsPlaygroundControls();
+        frame.getContentPane().add(layoutTestPanel.$$$getRootComponent$$$(), BorderLayout.CENTER);
 
         // -----------------------------------------------------------------------------------------------
 
