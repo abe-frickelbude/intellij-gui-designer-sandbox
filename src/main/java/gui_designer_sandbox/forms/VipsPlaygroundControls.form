@@ -37,6 +37,8 @@
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:8dlu:noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
@@ -56,7 +58,7 @@
     <colspec value="fill:5dlu:noGrow"/>
     <colspec value="fill:max(d;4px):noGrow"/>
     <constraints>
-      <xy x="20" y="20" width="431" height="691"/>
+      <xy x="20" y="20" width="431" height="697"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -230,8 +232,8 @@
       </component>
       <component id="876df" class="javax.swing.JLabel">
         <constraints>
-          <grid row="28" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <forms/>
+          <grid row="28" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
         </constraints>
         <properties>
           <text value="Height"/>
@@ -339,7 +341,7 @@
           <text value="Width"/>
         </properties>
       </component>
-      <component id="590fc" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+      <component id="590fc" class="javax.swing.JSpinner" binding="outputSizeSpinnerWidth">
         <constraints>
           <grid row="33" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
           <forms defaultalign-horz="false"/>
@@ -355,7 +357,7 @@
           <text value="Height"/>
         </properties>
       </component>
-      <component id="a7974" class="javax.swing.JSpinner" binding="spinner2" default-binding="true">
+      <component id="a7974" class="javax.swing.JSpinner" binding="outputSizeSpinnerHeight">
         <constraints>
           <grid row="33" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
           <forms defaultalign-horz="false"/>
@@ -391,7 +393,7 @@
       </component>
       <component id="5bc87" class="javax.swing.JSeparator">
         <constraints>
-          <grid row="36" column="2" row-span="1" col-span="7" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="38" column="2" row-span="1" col-span="7" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
           <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
@@ -400,7 +402,7 @@
       </component>
       <component id="8d3c5" class="javax.swing.JButton" binding="applyTransformButton" default-binding="true">
         <constraints>
-          <grid row="39" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="41" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
@@ -409,11 +411,27 @@
       </component>
       <component id="a2b85" class="javax.swing.JButton" binding="saveButton" default-binding="true">
         <constraints>
-          <grid row="41" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="43" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <forms/>
         </constraints>
         <properties>
           <text value="Save..."/>
+        </properties>
+      </component>
+      <component id="d0b7f" class="javax.swing.JSpinner" binding="avifSpeedSpinner">
+        <constraints>
+          <grid row="36" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d39fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="36" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="AVIF speed"/>
         </properties>
       </component>
     </children>
